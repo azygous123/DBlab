@@ -8,13 +8,20 @@
 
 .profile-container img
 {
-    width: 375px;
+    width: 250px;
     height: auto;
     border-radius: 8px;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px 20px;
+}
 
 .navilist {
+    display:flex;
     list-style: none;   
     margin: 0;
     padding: 0;
@@ -37,4 +44,18 @@
 {
     display: inline;
     margin: 0 10px;
+}
+
+.logon .bttn {
+  background-color: #737a86;
+  color: white;
+  padding: 8px 14px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.logon .bttn:hover {
+  background-color: #000000;
 }
