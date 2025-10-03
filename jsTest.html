@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript Test</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <nav >
+                <ul class="navilist">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="cover.html">Cover Letter</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="jsTest.html">jsTest</a></li>
+                </ul>
+            </nav>           
+        </header>
+        <main> 
+           <h2>First JavaScript Program</h2>
+            <p id="demo">What it do?</p>   
+                 <div>
+                        <script>
+                            /*document.getElementById("demo").innerHTML="My First JavaScript";*/
+                        </script>
+                    </div>
+                    <p>Enter Number</p>
+                    <input type="text" id="num1">
+                    <input type="text" id="num2">
+
+                    <button type="button" >Try Me</button>
+           
+                    <br>
+                    <br>
+                    <br>
+                    <p>In this example we will do some addition</p>
+                    <p id="cashmoney">Output: </p>
+                  <br>
+                  <br>
+                  <br>
+                  <p id="count"></p>
+                  <script>
+                   /* day = "Wednesday";
+                    break;
+                    case 4:
+                        day = "Thursday";
+                    break;
+                    case 5:
+                        day = "Friday";
+                    break;
+                    case 6: 
+                        day = "Saturday";*/
+                        let text = "";
+
+                        for(let i = 0; i < 5; i++)
+                        {
+                            text += "The number is " + i + "<br>";
+                        }
+                        document.getElementById("count").innerHTML = text;
+
+                  </script>
+
+
+
+        </main>
+
+
+
+
+        <script src="script.js" defer></script>
+
+    </body>
+</html>
