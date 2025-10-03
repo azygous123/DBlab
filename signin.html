@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Sign In Page</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header>
-           <nav >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+            <nav >
                 <ul class="navilist"><!-- first child element goes left -->
                     <li><a href="index.html">Home</a></li>
                     <li><a href="resume.html">Resume</a></li>
@@ -20,66 +20,52 @@
                 <div class="logon"><!-- last child element goes right -->
                     <a href="signin.html" class="bttn">Signin</a>
                 </div>
-            </nav>            
+            </nav>           
         </header>
-        <main> 
-           <h2>First JavaScript Program</h2>
-            <p id="demo">What it do?</p>   
-                 <div>
-                        <script>
-                            /*document.getElementById("demo").innerHTML="My First JavaScript";*/
-                        </script>
-                    </div>
-                    <p>Enter Number</p>
-                    <input type="text" id="num1">
-                    <input type="text" id="num2">
+    <main>
+        <br>
+        <br>
+        <br>
+        <br> 
+    <div style="display: flex; flex-direction: column; align-items: center;">
+        <div style="display: flex; flex-direction: column; align-items: center; border: 1px solid #ccc; width: 300px;">
+                <h1>Login</h1>
+                <br>
+                <br>
+                <p >Enter Email or Phone Number</p>
+                <input type="text" id="num1">
+                <br>
+                <p>Password</p>
+                <input type="text" id="num1">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p>New? Sign up <a href="signup.html">here.</a></p>
+                <br>
+                <br>
+        </div>
+    </div>
+    <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+        
+    
+    </main>
 
-                    <button type="button" >Try Me</button>
-           
-                    <br>
-                    <br>
-                    <br>
-                    <p>In this example we will do some addition</p>
-                    <p id="cashmoney">Output: </p>
-                  <br>
-                  <br>
-                  <br>
-                  <p id="count"></p>
-                  <script>
-                   /* day = "Wednesday";
-                    break;
-                    case 4:
-                        day = "Thursday";
-                    break;
-                    case 5:
-                        day = "Friday";
-                    break;
-                    case 6: 
-                        day = "Saturday";*/
-                        let text = "";
-
-                        for(let i = 0; i < 5; i++)
-                        {
-                            text += "The number is " + i + "<br>";
-                        }
-                        document.getElementById("count").innerHTML = text;
-
-                  </script>
-
-
-
-        </main>
-         <footer>
-            <ul class="footerlist">
-                <li><a href="terms.html">Conditions of Use</a></li>
-                <li><a href="privacy.html">Privacy Policy</a></li>
-                <li><a href="cookies.html">Cookies</a></li>
-            </ul>      
-        </footer>
-
-
-
-        <script src="script.js" defer></script>
-
-    </body>
+<footer>
+    <ul class="footerlist">
+        <li><a href="terms.html">Conditions of Use</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="cookies.html">Cookies</a></li>
+    </ul>      
+</footer>
+</body>
 </html>
